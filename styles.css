@@ -3,3 +3,19 @@
     src: url(/Users/meghanotto/Library/Fonts/Norse-Bold.otf);
   }
 
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.leftpane {
+    width: 45%;
+    height: 100%;
+    position: sticky;
+    background-image: url(/Users/meghanotto/repos/sign-up-form/OrionSmall1.jpg);
+}
+
+.rightpane {
+    flex: 1;
+}
