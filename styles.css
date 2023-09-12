@@ -26,7 +26,6 @@ footer {
     font-family: 'norse-bold', Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     flex-wrap:wrap;
-    margin-right: 3rem;
     align-items: center;
 }
 
@@ -38,10 +37,12 @@ footer {
     justify-content: center;
     align-items: flex-start;
     font-family: 'roboto', sans-serif;
+    background-color: #e4e2e1;
 }
 
 form {
     width: 100%;
+    background-color:#fbfaf9;
 }
 
 input {
@@ -51,6 +52,7 @@ input {
     display: flex;
     justify-content:flex-start;
     width: 100%;
+    padding: 5%;
 
 }
 
@@ -78,13 +80,19 @@ input {
     
     font-weight: 700;
     line-height: 1.2rem;
+    font-size: 1.2rem;
     position: relative;
-    bottom: 3rem;
-    padding-right: 5%;
+    bottom: 1rem;
+    padding: 5%;
 }
 
 .signupmsg {
     font-size:1.5rem;
     font-weight: 800;
     margin: 1.5rem 0;
+    padding: 5%;
+}
+
+button {
+    margin: 5%;
 }
