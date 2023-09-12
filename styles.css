@@ -18,6 +18,7 @@ body {
     font-family: 'norse-bold', Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     flex-wrap:wrap;
+    margin-right: 3rem;
 }
 
 .rightpane {
@@ -26,14 +27,30 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     font-family: 'roboto', sans-serif;
 }
 
-form .inputs {
+form {
+    width: 100%;
+}
+
+input {
+    margin: 0.5rem;
+}
+.inputs {
     display: flex;
     justify-content:flex-start;
     width: 100%;
-    flex-wrap: wrap;
+
+}
+
+.leftinputs, 
+.rightinputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
 }
 
 .logotitle {
@@ -47,12 +64,15 @@ form .inputs {
 
 .hook {
     
-    padding: 1rem;
     font-weight: 700;
+    line-height: 1.2rem;
+    position: relative;
+    bottom: 3rem;
+    padding-right: 5%;
 }
 
 .signupmsg {
     font-size:1.5rem;
     font-weight: 800;
-    margin: 1rem;
+    margin: 1.5rem 0;
 }
