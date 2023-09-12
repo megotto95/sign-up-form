@@ -10,12 +10,20 @@ body {
 }
 
 .leftpane {
-    width: 45%;
+    width: 40%;
     height: 100%;
-    position: sticky;
+    flex-shrink: 0;
     background-image: url(/Users/meghanotto/repos/sign-up-form/OrionSmall1.jpg);
 }
 
 .rightpane {
-    flex: 1;
+    flex-grow: 0;
+    width: 60%;
+}
+
+form .inputs {
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+    flex-wrap: wrap;
 }
