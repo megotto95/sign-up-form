@@ -13,12 +13,20 @@ body {
     width: 40%;
     height: 100%;
     flex-shrink: 0;
+    display: flex;
     background-image: url(/Users/meghanotto/repos/sign-up-form/OrionSmall1.jpg);
+    font-family: 'norse-bold', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    flex-wrap:wrap;
 }
 
 .rightpane {
     flex-grow: 0;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'roboto', sans-serif;
 }
 
 form .inputs {
@@ -26,4 +34,25 @@ form .inputs {
     justify-content:flex-start;
     width: 100%;
     flex-wrap: wrap;
+}
+
+.logotitle {
+    display: flex;
+    align-items: center;
+    background-color: #0000007f;
+    width: 100%;
+    height:min-content;
+    color: #EAE8E7;
+}
+
+.hook {
+    
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.signupmsg {
+    font-size:1.5rem;
+    font-weight: 800;
+    margin: 1rem;
 }
