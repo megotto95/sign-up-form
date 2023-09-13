@@ -30,7 +30,7 @@
                     <label for="email">EMAIL</label>
                     <input type="email" name="email" id="email">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" minlength="8" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])">
                 </div>
                 <div class="rightinputs">
                     <label for="lastname">LAST NAME</label>
@@ -38,7 +38,7 @@
                     <label for="telnumber">PHONE NUMBER</label>
                     <input type="tel" name="telnumber" id="telnumber">
                     <label for="conpassword">CONFIRM PASSWORD</label>
-                    <input type="password" name="conpassword" id="conpassword">
+                    <input type="password" name="conpassword" id="conpassword" minlength="8" pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])">
                 </div>
             </div>
             <button type="submit" class="signup">Sign Up</button>
