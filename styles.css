@@ -45,10 +45,17 @@ form {
 }
 
 input {
-    padding: 0;
+    padding: 0.2rem;
     margin-bottom: 1rem;
-    border: 1px solid #d7d5d5;
+    border: 1px solid #d7d5d5cf;
     width: 100%;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 1px 1px 5px 1px #3636362a;
+    border: 0.5px solid #2d0ff0;
+    outline: none;
 }
 
 .inputs {
