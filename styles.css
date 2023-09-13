@@ -37,31 +37,40 @@ footer {
     justify-content: center;
     align-items: flex-start;
     font-family: 'roboto', sans-serif;
-    background-color: #e4e2e1;
+    background-color: #f2f3fa;
 }
 
 form {
     width: 100%;
-    background-color:#fbfaf9;
 }
 
 input {
-    margin: 0.5rem;
+    padding: 0;
+    margin-bottom: 1rem;
+    border: 1px solid #d7d5d5;
+    width: 100%;
 }
+
 .inputs {
     display: flex;
     justify-content:flex-start;
     width: 100%;
-    padding: 5%;
-
+    column-gap: 4rem;
+    padding: 2% 5%;
+    background-color:#fbfaf9;
+    box-shadow: 0px 10px 5px -10px #363636db;
 }
+
 
 .leftinputs, 
 .rightinputs {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 80%;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0
 }
 
 .logotitle {
@@ -89,10 +98,17 @@ input {
 .signupmsg {
     font-size:1.5rem;
     font-weight: 800;
-    margin: 1.5rem 0;
-    padding: 5%;
+    padding: 1% 5%;
+    background-color:#fbfaf9;
+    width: 100%;
 }
 
 button {
-    margin: 5%;
+    margin: 1rem;
+    background-color: #35683B;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid;
+    color:#EAE8E7;
+    padding: 0.5rem 1.5rem;
 }
